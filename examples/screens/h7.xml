@@ -15,7 +15,7 @@
 				style_bg_color="0x002c57"
 			>
 				<h7button label="First" width="25%" />
-				<h7buttonwithstatus label="Second" width="70%" />
+				<h7buttonwithstatus label="Sequencer" width="70%" />
 				<!-- <button label="Third" width="25%"/> -->
 			</h7row>
 

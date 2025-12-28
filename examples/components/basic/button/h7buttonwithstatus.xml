@@ -5,6 +5,7 @@
 
 	<api>
 		<prop name="label" type="string" default="Label" help="The text to be displayed on the button" />
+		<prop name="status" type="string" default="seq_status" />
 	</api>
 
 	<styles>
@@ -36,5 +37,6 @@
 		<bind_style name="style_pressed_dark" subject="dark_theme" ref_value="1" selector="pressed" />
 
 		<lv_label text="$label" align="center" />
+		<lv_label bind_text="$status" align="right_mid" />
 	</view>
 </component>

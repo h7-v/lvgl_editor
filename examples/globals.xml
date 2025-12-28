@@ -63,6 +63,9 @@
 		<int name="song_played" value="130" />
 		<int name="song_liked" value="0" />
 		<int name="song_playing" value="0" />
+
+		<!-- h7 SUBJECTS -->
+		<string name="seq_status" value="???" />
 	</subjects>
 
 	<images>
