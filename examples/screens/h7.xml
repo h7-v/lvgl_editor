@@ -4,22 +4,22 @@
 		<style name="style_dark" bg_color="#accent2_50_dark" />
 	</styles>
 	<view>
-		<column width="100%">
+		<h7column width="100%">
 			<!-- A header where the children are placed in a row.
 			     "space_between" uses the whole space evenly -->
-			<row
+			<h7row
 				width="100%"
 				style_flex_main_place="space_between"
 				style_pad_all="8"
 				style_bg_opa="100%"
 				style_bg_color="0x002c57"
 			>
-				<button label="First" width="25%"/>
-				<button label="Second" width="70%"/>
+				<h7button label="First" width="25%" />
+				<h7buttonwithstatus label="Second" width="70%" />
 				<!-- <button label="Third" width="25%"/> -->
-			</row>
+			</h7row>
 
-			<row
+			<h7row
 				width="100%"
 				style_flex_main_place="space_between"
 				style_pad_all="8"
@@ -28,7 +28,7 @@
 				style_text_color="0xddd"
 			>
 				<lv_label text="Made by LVGL&apos;s UI editor" />
-			</row>
-		</column>
+			</h7row>
+		</h7column>
 	</view>
 </screen>
